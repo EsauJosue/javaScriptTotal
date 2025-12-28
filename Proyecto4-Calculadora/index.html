@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Calculadora</h1>
+    <main class="calculadora">
+      <div class="inputs">
+        <input type="text" name="num1" id="numero1" />
+        <input type="text" name="num2" id="numero2" />
+      </div>
+      <div class="operacionesBasicas">
+        <button id="btn-suma" onclick="sumar()">+</button>
+        <button id="btn-resta" onclick="restar()">-</button>
+        <button id="btn-multiplicacion" onclick="multiplicar()">x</button>
+        <button id="btn-division" onclick="dividir()">/</button>
+      </div>
+      <div class="operacionesMath">
+        <button id="btn-MathPow" onclick="potencia()">potencia</button>
+        <button id="btn-MathSqrt" onclick="raiz()">raiz</button>
+        <button id="btn-MathAbsoluto" onclick="absoluto()">absoluto</button>
+        <button id="btn-MathRandom" onclick="random()">random</button>
+      </div>
+      <div class="resultado">
+        <input type="text" name="resultado" id="resultado" value="0" />
+      </div>
+      <div class="round">
+        <button id="btn-MathRound" onclick="redondear()">round</button>
+        <button id="btn-MathFloor" onclick="piso()">floor</button>
+        <button id="btn-MathCeil" onclick="ceil()">ceil</button>
+      </div>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

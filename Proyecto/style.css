@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(67, 79, 67);
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+main{
+    margin: 30px auto;
+    width: 600px;
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 20px;
+}
+h1{
+    text-align: center;
+    font-weight: 800;
+    background-color: red;
+    margin: 0;
+    padding: 20px 40px;
+    border-radius: 20px;
+}
+#Box-preguntas{
+    margin: 40px;
+}
+.pregunta input{
+    width: 100%;
+    border-radius: 7px;
+}
+#instrucciones{
+    text-align: center;
+}
+
+#botones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+button{
+    width: 170px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+}
+#btnEnviar{
+    background-color: rgb(52, 185, 241);
+    color: white;
+}
+#btnReiniciar{
+    background-color: red;
+    color: white;
+}
+#tiempo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#tiempo h3{
+    font-size: 40px;
+}
+#resultado{
+    display: flex;
+    justify-content: center;
+    color: yellow;
+}

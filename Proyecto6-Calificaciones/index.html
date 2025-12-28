@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Boletín de Calificaciones</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body onload="lectura()">
+    <main>
+      <h1>Boleta de Calificaciones</h1>
+      <div class="buttons">
+        <button onclick="verCalificaciones()">Ver Calificaciones</button>
+        <button onclick="verPromedio()">Promedio</button>
+        <button onclick="verCalificacionAlta()">Calificación más alta</button>
+        <button onclick="verReprobadas()">Calificación reprobatoria</button>
+      </div>
+      <div class="resultado"></div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fecha y Hora</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body onload="comenzarReloj()">
+    <div>
+      <h4><b>Activar Alarma</b></h4>
+      <h5>Ingrese el tiempo</h5>
+      <input type="text" id="tiempo" />
+      <button onclick="iniciar()">Activar</button>
+      <h2 id="status">No iniciado</h2>
+      <h1 id="tiempoA">00:00:00</h1>
+    </div>
+    <audio id="sonidoAlarma">
+      <source src="alarma.mp3" type="audio/mpeg" />
+    </audio>
+    <script src="app.js"></script>
+  </body>
+</html>

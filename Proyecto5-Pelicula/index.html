@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recomendación de películas</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <h1 id="title">
+        Te recomendamos una pelicula en base a la edad del usuario
+      </h1>
+      <p>Ingresa tu edad</p>
+      <input type="number" id="age" />
+      <div id="botones">
+        <button onclick="recomendar('drama')" id="">Drama</button>
+        <button onclick="recomendar('comedia')" id="">Comedia</button>
+        <button onclick="recomendar('suspenso')" id="">Suspenso</button>
+        <button onclick="recomendar('accion')" id="">Acción</button>
+      </div>
+      <p>Recomendación</p>
+      <h2 id="recomendacion">Nuestra Recomendación</h2>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>

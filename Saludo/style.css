@@ -1,0 +1,20 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid #0ae896;
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+button{
+    border: none;
+    background-color: olivedrab;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+}

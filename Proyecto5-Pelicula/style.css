@@ -1,0 +1,31 @@
+body{
+    background-color: azure;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+main{
+    margin: 40px auto;
+    max-width: 800px;
+    border: 2px solid violet;
+    padding: 20px;
+    border-radius: 20px;
+}
+#title{
+    text-align: center;
+    color: gray;
+}
+#botones{
+    margin: 30px auto;
+}
+
+#botones button{
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    height: 35px;
+    width: 130px;
+    border-radius: 10px;
+}

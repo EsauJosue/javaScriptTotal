@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responde rápido</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body onload="iniciar()">
+    <main>
+      <h1>Juego de Preguntas</h1>
+      <p id="instrucciones">
+        Responde las siguientes preguntas en un lapso máximo de 30 segundos para
+        que puedas ganar la partida
+      </p>
+      <section id="Box-preguntas">
+        <div class="pregunta">
+          <p>1. Pregunta 1</p>
+          <input type="text" id="pregunta1" />
+        </div>
+        <div class="pregunta">
+          <p>2. Pregunta 2</p>
+          <input type="text" id="pregunta2" />
+        </div>
+        <div class="pregunta">
+          <p>3. Pregunta 3</p>
+          <input type="text" id="pregunta3" />
+        </div>
+        <div class="pregunta">
+          <p>4. Pregunta 4</p>
+          <input type="text" id="pregunta4" />
+        </div>
+        <div class="pregunta">
+          <p>5. Pregunta 5</p>
+          <input type="text" id="pregunta5" />
+        </div>
+      </section>
+      <section id="botones">
+        <button id="btnEnviar">Terminé!</button>
+        <button id="btnReiniciar">Volver a Intentar</button>
+      </section>
+      <section id="tiempo">
+        <h3 id="indicador"></h3>
+      </section>
+      <section id="resultado">
+        <h2 id="resultado-text">No contestado</h2>
+      </section>
+      <audio id="alarma">
+        <source src="alarma.mp3" type="audio/mpeg" />
+      </audio>
+      <script src="app.js"></script>
+    </main>
+  </body>
+</html>
