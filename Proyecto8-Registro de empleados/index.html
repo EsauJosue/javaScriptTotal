@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registro de empleados</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 id="titulo">Registro de empleados</h1>
+    <main id="contenedor">
+      <section id="formulario">
+        <div class="input">
+          <label for="legajo">Legajo</label>
+          <input type="text" name="legajo" id="legajo" />
+        </div>
+        <div class="input">
+          <label for="nombre">Nombre</label>
+          <input type="text" name="nombre" id="nombre" />
+        </div>
+        <div class="input">
+          <label for="apellido">Apellido</label>
+          <input type="text" name="apellido" id="apellido" />
+        </div>
+        <div class="input">
+          <label for="fecha">Fecha de Nacimiento</label>
+          <input type="date" name="fecha" id="fecha" />
+        </div>
+        <div class="input">
+          <label for="cargo">Cargo</label>
+          <input type="text" name="cargo" id="cargo" />
+        </div>
+        <div class="input">
+          <button class="btn" id="guardar" onclick="guardarRegistro()">
+            Guardar Empleado
+          </button>
+          <button class="btn" id="ver" onclick="verRegistros()">
+            Ver empleado
+          </button>
+        </div>
+      </section>
+      <section id="resultados"></section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

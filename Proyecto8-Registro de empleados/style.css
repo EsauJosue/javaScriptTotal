@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(231, 196, 231);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+#titulo{
+    color: rgb(58, 9, 103);
+    font-weight: 200;
+    border-bottom: 1px solid rgb(58, 9, 103);
+    padding-bottom: 20px;
+}
+#contenedor{
+    display: flex;
+}
+#formulario{
+    border-right: 1px solid rgb(58, 9, 103);
+    padding: 20px;
+    /* border-radius: 10px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+.input input{
+    width: 200px;
+    height: 20px;
+    border: none;
+    border-radius: 10px;
+}
+.btn{
+    color: white;
+    border: none;
+    padding: 5px;
+    width: 180px;
+    border-radius: 10px;
+}
+#guardar{
+    background-color: rgb(58, 9, 103);
+}
+#ver{
+    background-color: rgb(237, 12, 203);
+
+}
