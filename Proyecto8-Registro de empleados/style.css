@@ -48,3 +48,20 @@ body{
     background-color: rgb(237, 12, 203);
 
 }
+.ItemBox{
+    border: 1px solid rgb(58, 9, 103);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    margin: 10px;
+}
+#resultados{
+    padding: 30px;
+}
+.ItemBox p{
+    margin: 0;
+    border-bottom: 1px solid white;
+}
