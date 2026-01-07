@@ -1,0 +1,10 @@
+{
+    "nombre": "Esaú Josué Martínez",
+    "edad": 41,
+    "esEstudiante": false,
+    "direccion": {
+        "calle": "Juan de la Barrera 108",
+        "ciudad": "Aguascalientes"
+    },
+    "telefonos": ["449-3862268", "4497865433"]
+}
